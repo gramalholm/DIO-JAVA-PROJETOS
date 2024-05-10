@@ -17,7 +17,7 @@ public class ContaTerminal {
         cliente.numeroBanco = scanner.nextInt();
         System.out.print("Saldo: ");
         cliente.saldoBanco = scanner.nextFloat();
-
+        
         System.out.print("Olá " + cliente.nome + " ");
         System.out.print("obrigado por criar uma conta em nosso banco, sua agência é " + cliente.agencia + " ");
         System.out.print("conta " + cliente.numeroBanco + " ");
