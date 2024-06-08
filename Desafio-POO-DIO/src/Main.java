@@ -19,7 +19,7 @@ public class Main {
         bootcamp.setDescricao("Descrição Bootcamp Java Developer");
         bootcamp.getConteudos().add(curso);
         bootcamp.getConteudos().add(mentoria);
-
+        System.out.println("------------------------------------------------------------------------------");
         Dev devGabriel = new Dev();
         devGabriel.setNome("Gabriel");
         devGabriel.inscreverBootcamp(bootcamp);
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Conteudos concluidos: " + devGabriel.getConteudosConcluidos());
         System.out.println("Xp: " + devGabriel.calcularXp());
 
-        System.out.println("--------------------------------------");
+        System.out.println("------------------------------------------------------------------------------");
 
         Dev devAlessandra = new Dev();
         devAlessandra.setNome("Alessandra");
@@ -39,5 +39,7 @@ public class Main {
         System.out.println("Conteudos inscritos: " + devAlessandra.getConteudosInscritos());
         System.out.println("Conteudos concluidos: " + devAlessandra.getConteudosConcluidos());
         System.out.println("Xp: " + devGabriel.calcularXp());
+
+        System.out.println("------------------------------------------------------------------------------");
     }
 }
